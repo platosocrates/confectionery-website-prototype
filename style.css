@@ -6,6 +6,9 @@ html {
     box-sizing: inherit;
 }
 
+a {
+    text-decoration: none;
+}
 /* Structure the Header */
 
 #headerWrapper {
@@ -16,7 +19,24 @@ html {
 
 #header {
     margin: 0 auto;
+    width: 1105px;
 
+}
+
+h1 {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    padding: 0px;
+}
+
+nav ul a {
+    padding: 10px;
 }
 
 /* Structure the Page */
