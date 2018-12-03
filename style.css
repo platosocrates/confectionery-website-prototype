@@ -56,6 +56,14 @@ nav ul a {
     display: flex;
     border: 1px solid green;
     flex-direction: column;
+    width: 1105px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#imagesubtext {
+    width: 700px;
+    margin: 0 auto;
 }
 
 /* Structure the Footer */
