@@ -61,10 +61,20 @@ nav ul a {
     text-align: center;
 }
 
+/* Main Content Section */ 
+
 #imagesubtext {
     width: 700px;
     margin: 0 auto;
 }
+
+/* Featured Products Section */
+
+#featured-products {
+    display: flex;
+    flex-direction: row;
+}
+
 
 /* Structure the Footer */
 
