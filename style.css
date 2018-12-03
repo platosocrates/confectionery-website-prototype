@@ -5,3 +5,33 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
+/* Structure the Header */
+
+#headerWrapper {
+    display: flex;
+    border: 1px solid green;
+    width: 100%;
+}
+
+/* Structure the Page */
+
+#pageWrapper {
+    display: block;
+    border: 1px solid red;
+    width: 100%;
+}
+
+#page {
+    display: flex;
+    border: 1px solid green;
+    flex-direction: column;
+}
+
+/* Structure the Footer */
+
+#footerWrapper {
+    display: flex;
+    border: 1px solid green;
+    width: 100%;
+}
